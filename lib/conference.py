@@ -1,5 +1,4 @@
-def badge_maker(name):
-    return f"Hello, my name is {name}." 
+NAMES = ["Guido", "Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creator(names):
     namelist=[]
@@ -20,3 +19,5 @@ def printer(names):
         print(item)
     for item in assign_rooms(names):
         print(item)    
+
+print(printer(NAMES))
